@@ -1,0 +1,10 @@
+FROM python:3.8-slim
+WORKDIR /app
+COPY app.py /app/
+COPY requirements.txt /app/
+COPY xgb_cv.pkl /app/
+COPY heroku_app.py /app/
+RUN pip install --no-cache-dir -r /app/requirements.txt
+RUN pip install streamlit
+EXPOSE 8502
+CMD ["streamlit", "run", "--server.port", "8502", "heroku_app.py"]
