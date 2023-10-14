@@ -1,15 +1,4 @@
-# Ignore compiled Python files
+.venv
+__pycache__
 *.pyc
-
-# Ignore system and IDE-specific files
-__pycache__/
-.vscode/
-
-# Ignore any saved models or data
-xgb_cv.pkl
-
-# Ignore environment-specific files
-.env
-
-# Ignore Python virtual environment
-venv/
+.streamlit/secrets.toml
