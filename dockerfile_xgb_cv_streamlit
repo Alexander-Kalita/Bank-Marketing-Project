@@ -1,7 +1,8 @@
 FROM python:3.8-slim
 WORKDIR /app
 COPY . /app
-RUN pip install --no-cache-dir -r streamlit_requirements.txt
+RUN pip install --no-cache-dir -r requirements_streamlit.txt
+RUN pip install joblib
 RUN pip install protobuf==3.20.0
 RUN pip install click==7.1.2
 RUN pip install streamlit

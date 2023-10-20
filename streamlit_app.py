@@ -1,9 +1,10 @@
 
+import json
 import joblib
 import sklearn
-import json
 import requests
 import pandas as pd
+import xgboost as xgb
 import streamlit as st
 
 # Create Depositer app in Streamlit for new customer predictions
