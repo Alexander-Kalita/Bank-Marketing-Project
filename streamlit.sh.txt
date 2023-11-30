@@ -1,6 +1,0 @@
-[build]
-base_image = "docker.io/xgb_cv_container:latest"
-
-[server]
-headless = true
-port = 8501
