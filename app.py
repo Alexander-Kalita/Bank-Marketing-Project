@@ -15,7 +15,7 @@ def predict_single(features, model):
     X = np.array(features).reshape(1, -1)
     prediction = loaded_model.predict_proba(X)
     return float(prediction[0, 1])
-app = Flask('banksubscriptions')
+application = Flask('banksubscriptions')
 @app.route('/predict', methods=['POST','GET'])
 def predict():
     try:
