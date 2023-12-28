@@ -1,0 +1,59 @@
+
+# streamlit-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: streamlit-app
+  namespace: default
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: streamlit-app
+  template:
+    metadata:
+      labels:
+        app: streamlit-app
+    spec:
+      containers:
+      - name: xgb-cv-streamlit-container
+        image: alexanderkalita/depositer:xgb_cv_streamlit_tag
+        ports:
+        - containerPort: 8501
+        imagePullPolicy: Always
+        
+---
+# streamlit-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: streamlit-app-service
+spec:
+
+  selector:
+    app: streamlit-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8501
+
+---
+# streamlit-ingress.yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: streamlit-app-ingress
+  annotations:
+    traefik.ingress.kubernetes.io/router.entrypoints: web
+spec:
+  rules:
+  - host: depositer.netlify.app
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: streamlit-app-service
+            port:
+              number: 8501
