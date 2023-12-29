@@ -1,0 +1,38 @@
+
+# flask-api-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-api
+  namespace: default
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: flask-api
+  template:
+    metadata:
+      labels:
+        app: flask-api
+    spec:
+      containers:
+      - name: xgb-cv-container
+        image: alexanderkalita/depositer:xgb_cv_tag
+        ports:
+        - containerPort: 8081
+        imagePullPolicy: Always
+
+---
+# flask-api-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask-api-service
+spec:
+  clusterIP: None
+  selector:
+    app: flask-api
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8081
