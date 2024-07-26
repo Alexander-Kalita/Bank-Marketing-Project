@@ -14,7 +14,11 @@ The Depositer application is designed to assist telemarketers in targeting poten
 
 Depositer utilizes various customer features such as age, occupation, and call duration to differentiate potential bank deposit subscribers from non-subscribers. By leveraging this predictive capability, users can optimize their marketing efforts by targeting individuals more likely to subscribe, thereby saving time and marketing resources that would otherwise be spent on individually contacting every customer.
 
-Depositer is designed with speed in mind, simplicity and user-friendly minimalistic UI interface for ease of use in mind. This is the demo video of the interactive Depositer application in pre-production stage ![Depositer Demo](https://github.com/Alexander-Kalita/Bank-Marketing-Project/blob/main/depositer_staging.gif) 
+Depositer is designed with speed in mind, simplicity and user-friendly minimalistic UI interface for ease of use in mind. This is the demo video of the interactive Depositer application in pre-production stage 
+
+![Depositer Demo](https://github.com/Alexander-Kalita/Bank-Marketing-Project/blob/main/depositer_staging.gif) 
+
+
 
 
 
