@@ -25,11 +25,12 @@ The dataset utilized in this study was gathered by a Portuguese retail bank from
 Two notable limitations of this dataset should be considered. First, its collection dates back over a decade, which may impact its applicability to contemporary banking practices. Second, being static, it does not reflect changes in customer behavior or market trends over time. Despite these constraints, the dataset remains a valuable resource for analyzing customer behavior and evaluating the effectiveness of telemarketing campaigns.
 
 ## Architecture
-The project architecture is presented below. It starts with the upload of the dataset and exploratory data analysis conducted in JupyterLab, where the XGBoost model emerges as the best-trained model. This initial phase constitutes the first part of the project.
+The project architecture is outlined below. It begins with uploading the dataset and conducting exploratory data analysis in JupyterLab, where the XGBoost model is identified as the best-performing model. This phase marks the first part of the project.
 
-Subsequently, the trained XGBoost model undergoes version control using Git, and various experiments are conducted with MLflow in a Pipenv virtual environment. The model is locally tested using a Flask server, and important feature reliability tests, such as explanations with SHAP values and bias feature assessment, are carried out. Additionally, the model is showcased in a local environment using a Streamlit UI to demonstrate the Depositer application.
+Following this, the trained XGBoost model is managed with version control using Git, and various experiments are carried out with MLflow within a Pipenv virtual environment. The model undergoes local testing using a Flask server, where essential feature reliability tests are performed, including explanations with SHAP values and bias assessments. Additionally, the model is demonstrated in a local environment via a Streamlit UI to showcase the Depositer application.
 
-In the pre-production stage, the focus shifts to deploying the model in a production-ready environment. This involves deploying the model with Gunicorn and Streamlit, followed by thorough integration testing. Both the server and client are containerized using Docker, pushed to an online container repository on Docker Hub, and connected using Docker Compose.
+In the pre-production stage, the focus shifts to preparing the model for a production-ready environment. This involves deploying the model with Gunicorn and Streamlit, followed by comprehensive integration testing. Both the server and client are containerized using Docker, uploaded to Docker Hub, and connected using Docker Compose.
+
 
 ![Depositer architecture](https://github.com/Alexander-Kalita/Bank-Marketing-Project/blob/main/Depositer_MLOps_dev_staging.svg).
 
