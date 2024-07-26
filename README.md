@@ -10,11 +10,12 @@ The second part of the project, presented in ![Kalita-A-Bank-marketing-MLOps](ht
 The Depositer application addresses the challenge of efficiently targeting customers who are likely to subscribe to term deposits, thereby optimizing marketing campaigns. It has been rigorously tested and functions as expected in both development and staging environments.
 
 ## Value
-The Depositer application is designed to assist telemarketers in targeting potential subscribers during deposit marketing campaigns. By doing so, it helps to minimize the inefficiencies associated with identifying the desired customer group.
+The Depositer application is designed to assist telemarketers in targeting potential subscribers during deposit marketing campaigns, minimizing inefficiencies in identifying the desired customer group.
 
-Depositer utilizes various customer features such as age, occupation, and call duration to differentiate potential bank deposit subscribers from non-subscribers. By leveraging this predictive capability, users can optimize their marketing efforts by targeting individuals more likely to subscribe, thereby saving time and marketing resources that would otherwise be spent on individually contacting every customer.
+Depositer leverages various customer features such as age, occupation, and call duration to differentiate potential bank deposit subscribers from non-subscribers. By utilizing this predictive capability, users can optimize their marketing efforts, targeting individuals more likely to subscribe, thus saving time and marketing resources.
 
-Depositer is designed with speed in mind, simplicity and user-friendly minimalistic UI interface for ease of use in mind. This is the demo video of the interactive Depositer application in pre-production stage 
+Depositer is built for speed, simplicity, and ease of use, featuring a user-friendly, minimalist UI. Below is the demo video showcasing the interactive Depositer application in the pre-production stage.
+
 
 ![Depositer Demo](https://github.com/Alexander-Kalita/Bank-Marketing-Project/blob/main/depositer_staging.gif) 
 
