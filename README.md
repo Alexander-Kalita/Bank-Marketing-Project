@@ -9,7 +9,7 @@ The second part of the project, presented in ![Kalita-A-Bank-marketing-MLOps](ht
 
 The Depositer application addresses the challenge of efficiently targeting customers who are likely to subscribe to term deposits, thereby optimizing marketing campaigns. It has been rigorously tested and functions as expected in both development and staging environments.
 
-## Value
+## Benefits
 The Depositer application is designed to assist telemarketers in targeting potential subscribers during deposit marketing campaigns, minimizing inefficiencies in identifying the desired customer group.
 
 Depositer leverages various customer features such as age, occupation, and call duration to differentiate potential bank deposit subscribers from non-subscribers. By utilizing this predictive capability, users can optimize their marketing efforts, targeting individuals more likely to subscribe, thus saving time and marketing resources.
