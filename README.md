@@ -20,9 +20,9 @@ Depositer is built for speed, simplicity, and ease of use, featuring a user-frie
 ![Depositer Demo](https://github.com/Alexander-Kalita/Bank-Marketing-Project/blob/main/depositer_staging.gif) 
 
 ## Data
-The dataset used in this study was collected by a Portuguese retail bank between May 2008 and November 2010, and is publicly available in the ![UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/222/bank+marketing). The data used in this study could be found ![here](https://github.com/Alexander-Kalita/Bank-Marketing-Project/tree/main/my_mlops_project/data). The dataset contains information on 45,211 instances, including socio-demographic characteristics, financial backgrounds, and telemarketing campaign interactions.
+The dataset utilized in this study was gathered by a Portuguese retail bank from May 2008 to November 2010 and is publicly accessible via the UCI Machine Learning Repository. The data can be accessed ![here](https://github.com/Alexander-Kalita/Bank-Marketing-Project/tree/main/my_mlops_project/data). It comprises 45,211 instances, detailing socio-demographic characteristics, financial backgrounds, and interactions from telemarketing campaigns.
 
-There are two main limitations of the dataset that should be noted. First, the data was collected over a decade ago, which may limit its relevance to current banking practices. Second, the dataset is static and does not account for changes in customer behavior or market trends over time. However, despite these limitations, the dataset provides a valuable source of information on customer behavior and telemarketing campaign effectiveness.
+Two notable limitations of this dataset should be considered. First, its collection dates back over a decade, which may impact its applicability to contemporary banking practices. Second, being static, it does not reflect changes in customer behavior or market trends over time. Despite these constraints, the dataset remains a valuable resource for analyzing customer behavior and evaluating the effectiveness of telemarketing campaigns.
 
 
 
