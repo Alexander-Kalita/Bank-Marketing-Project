@@ -1,0 +1,16 @@
+
+version: '3.8'
+
+services:
+  gunicorn-app:
+    image: alexanderkalita/depositer:xgb_cv_tag
+    ports:
+      - "8081:8081"
+
+  streamlit-app:
+    image: alexanderkalita/depositer:xgb_cv_streamlit_tag
+    ports:
+      - "8501:8501"
+    depends_on:
+      - gunicorn-app
+
