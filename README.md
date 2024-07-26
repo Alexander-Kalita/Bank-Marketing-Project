@@ -8,15 +8,3 @@ The first part of the project, outlined in ![Kalita-A-Bank-marketing-ML](https:/
 The second part of the project, presented in ![Kalita-A-Bank-marketing-MLOps](https://github.com/Alexander-Kalita/Bank-Marketing-Project/blob/main/Kalita-A-Bank-marketing-MLOps.ipynb), focuses on developing and deploying an ML application named Depositer, based on the best-trained XGBoost model. This phase involves implementing version control, managing dependencies, and conducting local testing to ensure robustness and functionality. In the staging environment, the model is prepared for production by containerizing it and verifying its performance, ensuring the application runs smoothly in a production-like setting.
 
 The Depositer application addresses the challenge of efficiently targeting customers who are likely to subscribe to term deposits, thereby optimizing marketing campaigns. It has been rigorously tested and functions as expected in both development and staging environments.
-
-
-
-
-
-
-
-
-
-
-
-The second part of the project in ![Kalita-A-Bank-marketing-ML](https://github.com/Alexander-Kalita/Bank-Marketing-Project/blob/main/Kalita-A-Bank-marketing-MLOps.ipynb) proceeds on to make an ML application named Depositer based on the best trained XGBoost model from the first part of the project. It dwells on such aspects of development environment as versioning and experimenting of the model as well as through local testing. Then, the model passes to the staging environment where it is prepared and containerized for production. Depositer works as expected in both development and staging environments.
