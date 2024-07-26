@@ -32,7 +32,7 @@ Following this, the trained XGBoost model is managed with version control using 
 In the pre-production stage, the focus shifts to preparing the model for a production-ready environment. This involves deploying the model with Gunicorn and Streamlit, followed by comprehensive integration testing. Both the server and client are containerized using Docker, uploaded to Docker Hub, and connected using Docker Compose.
 
 
-![Depositer architecture](https://github.com/Alexander-Kalita/Bank-Marketing-Project/blob/main/Depositer_MLOps_dev_staging.svg).
+![Depositer architecture](https://github.com/Alexander-Kalita/Bank-Marketing-Project/blob/main/Depositer_dev_staging.svg).
 
 
 
