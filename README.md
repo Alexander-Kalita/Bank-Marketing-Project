@@ -16,6 +16,7 @@ Depositer leverages various customer features such as age, occupation, and call 
 
 Depositer is built for speed, simplicity, and ease of use, featuring a user-friendly, minimalist UI. Below is the demo video showcasing the interactive Depositer application in the pre-production stage.
 
+[Depositer App on Hugging Face](https://huggingface.co/spaces/AlexanderKalita/Depositer)
 
 ![Depositer Demo](https://github.com/Alexander-Kalita/Bank-Marketing-Project/blob/main/depositer_staging.gif) 
 
